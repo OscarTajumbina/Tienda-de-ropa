@@ -1,0 +1,51 @@
+nav a:link {
+    color: #fff; /* Color de los enlaces no visitados */
+  }
+  
+  nav a:visited {
+    color: #fff; /* Color de los enlaces visitados */
+  }
+  
+  nav a:hover {
+    color: #ccc; /* Color al hacer hover */
+  }
+  
+  nav a:active {
+    color: #999; /* Color al hacer click */
+  }
+
+  /* Estilos en línea */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  nav {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  .faq {
+    margin-top: 20px;
+  }
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  .question {
+    font-weight: bold;
+  }
+  .answer {
+    margin-top: 5px;
+  }
